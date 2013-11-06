@@ -206,6 +206,33 @@ public final class ImageFactory {
             throws IOException, DataFormatException {
         decoder.read(stream);
     }
+    
+    /**
+     * Create an image definition for an image read from a stream.
+     *
+     * @param stream
+     *            the InputStream containing the image data.
+     *
+     * @throws IOException
+     *             if there is an error reading the stream.
+     *
+     * @throws DataFormatException
+     *             if there is a problem decoding the image, either it is in an
+     *             unsupported format or an error occurred while decoding the
+     *             image data.
+     */
+    public void read(final InputStream stream, String mimeType)
+            throws IOException, DataFormatException {
+        if(null == mimeType || "".equals(mimeType)){
+            throw new DataFormatException("MIMEType Can't be null");
+        }
+        decoder = ImageRegistry.getImageProvider(mimeType);
+
+        if (decoder == null) {
+            throw new DataFormatException("Unsupported format");
+        }
+        decoder.read(stream);
+    }
 
     /**
      * Create a definition for the image so it can be added to a Flash movie.
