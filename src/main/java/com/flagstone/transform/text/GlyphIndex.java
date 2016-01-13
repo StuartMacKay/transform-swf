@@ -86,7 +86,7 @@ public final class GlyphIndex implements SWFEncodeable {
     public GlyphIndex(final SWFDecoder coder, final Context context)
             throws IOException {
         index = coder.readBits(context.get(Context.GLYPH_SIZE), false);
-        advance = coder.readBits(context.get(Context.ADVANCE_SIZE), true);
+        advance = coder.readBits(context.get(Context.ADVANCE_SIZE), false);
     }
 
     /**
