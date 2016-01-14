@@ -37,7 +37,7 @@ import com.flagstone.transform.Constants;
  * FontFace is a convenience class that can be used to create tables of
  * fonts for use in an application.
  */
-public final class FontFace {
+public class FontFace {
     /** The family name of the font. */
     private final transient String name;
     /** Is the font bold. */

@@ -72,7 +72,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see GradientFill
  */
-public final class Gradient implements SWFEncodeable {
+public class Gradient implements SWFEncodeable {
 
     /** Maximum number of gradient records. */
     public static final int MAX_GRADIENTS = 15;

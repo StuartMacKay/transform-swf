@@ -44,7 +44,7 @@ import com.flagstone.transform.datatype.Color;
  * GlowFilter is used to create a glow effect around an object on the display
  * list.
  */
-public final class GlowFilter implements Filter {
+public class GlowFilter implements Filter {
 
     /**
      * Builder for creating GlowFilter objects.

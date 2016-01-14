@@ -45,7 +45,7 @@ import com.flagstone.transform.coder.SWFFactory;
  * in a Flash movie.
  */
 @SuppressWarnings("PMD.CyclomaticComplexity")
-public final class FillStyleDecoder implements SWFFactory<FillStyle> {
+public class FillStyleDecoder implements SWFFactory<FillStyle> {
     /** {@inheritDoc} */
     public void getObject(final List<FillStyle> list, final SWFDecoder coder,
             final Context context) throws IOException {

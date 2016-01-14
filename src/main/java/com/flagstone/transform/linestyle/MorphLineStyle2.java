@@ -51,7 +51,7 @@ import com.flagstone.transform.fillstyle.FillStyle;
  * thickness is scaled if an object is resized.
  */
 @SuppressWarnings("PMD.CyclomaticComplexity")
-public final class MorphLineStyle2 implements LineStyle {
+public class MorphLineStyle2 implements LineStyle {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "MorphLineStyle2: {"

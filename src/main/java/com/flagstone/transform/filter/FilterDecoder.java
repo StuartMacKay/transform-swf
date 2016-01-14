@@ -44,7 +44,7 @@ import com.flagstone.transform.coder.SWFFactory;
  * ButtonShape objects.
  */
 @SuppressWarnings("PMD.CyclomaticComplexity")
-public final class FilterDecoder implements SWFFactory<Filter> {
+public class FilterDecoder implements SWFFactory<Filter> {
     /** {@inheritDoc} */
     public void getObject(final List<Filter> list, final SWFDecoder coder,
             final Context context) throws IOException {

@@ -47,7 +47,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * string ("") returns the target to the movie's main time-line.
  *
  */
-public final class SetTarget implements Action {
+public class SetTarget implements Action {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "SetTarget: { target=%s}";

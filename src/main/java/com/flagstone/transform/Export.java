@@ -50,7 +50,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * imported.
  * </p>
  */
-public final class Export implements MovieTag {
+public class Export implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "Export: { objects=%s}";

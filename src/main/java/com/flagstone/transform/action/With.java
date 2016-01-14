@@ -56,7 +56,7 @@ import com.flagstone.transform.coder.SWFFactory;
  * of actions to control the movie clip's time-line.
  * </p>
  */
-public final class With implements Action {
+public class With implements Action {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "With: { actions=%s}";

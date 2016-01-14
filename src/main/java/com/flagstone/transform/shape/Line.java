@@ -45,7 +45,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * relative to the current drawing point. Once the line is drawn, the end of the
  * line is now the current drawing point.
  */
-public final class Line implements ShapeRecord {
+public class Line implements ShapeRecord {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "Line: (%d, %d)";

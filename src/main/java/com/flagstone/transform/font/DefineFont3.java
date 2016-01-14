@@ -58,7 +58,7 @@ import com.flagstone.transform.text.Language;
  */
 @SuppressWarnings({"PMD.TooManyFields", "PMD.TooManyMethods",
     "PMD.CyclomaticComplexity" })
-public final class DefineFont3 implements DefineTag {
+public class DefineFont3 implements DefineTag {
     /** Format string used in toString() method. */
     private static final String FORMAT = "DefineFont3: { identifier=%d;"
             + " encoding=%d; small=%b; italic=%b; bold=%b; language=%s;"

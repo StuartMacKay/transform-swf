@@ -89,7 +89,7 @@ import com.flagstone.transform.shape.Shape;
  * libraries of "pre-parsed" flash fonts is the preferred way of use fonts.
  * </p>
  */
-public final class Font {
+public class Font {
 
     /** The face describing the font. */
     private FontFace face;

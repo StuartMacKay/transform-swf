@@ -45,7 +45,7 @@ import com.flagstone.transform.coder.SWFFactory;
  * used in morphing shapes.
  */
 @SuppressWarnings("PMD.CyclomaticComplexity")
-public final class MorphFillStyleDecoder implements SWFFactory<FillStyle> {
+public class MorphFillStyleDecoder implements SWFFactory<FillStyle> {
     /** {@inheritDoc} */
     public void getObject(final List<FillStyle> list, final SWFDecoder coder,
             final Context context) throws IOException {

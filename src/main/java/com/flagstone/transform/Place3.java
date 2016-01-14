@@ -56,7 +56,7 @@ import com.flagstone.transform.filter.Filter;
  */
 @SuppressWarnings({"PMD.TooManyFields", "PMD.TooManyMethods",
        "PMD.CyclomaticComplexity" })
-public final class Place3 implements MovieTag {
+public class Place3 implements MovieTag {
 
     /**
      * Place a new object on the display list.

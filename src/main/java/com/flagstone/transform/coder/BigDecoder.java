@@ -42,7 +42,7 @@ import java.util.Stack;
  * read in Big-Endian format with the most significant byte decoded first.
  */
 @SuppressWarnings("PMD.TooManyMethods")
-public final class BigDecoder {
+public class BigDecoder {
     /** The default size, in bytes, for the internal buffer. */
     public static final int BUFFER_SIZE = 4096;
 

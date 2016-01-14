@@ -34,7 +34,7 @@ package com.flagstone.transform;
 /**
  * SWF contains definitions of constants used throughout the framework.
  */
-public final class Constants {
+public class Constants {
     /**
      * DEBUG is used to enable extra checking when encoding and decoding files.
      */

@@ -42,7 +42,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * ColorMatrixFilter is used to apply a colour transform to the pixels of an
  * object on the display list.
  */
-public final class ColorMatrixFilter implements Filter {
+public class ColorMatrixFilter implements Filter {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "ColorMatrix: { matrix=["

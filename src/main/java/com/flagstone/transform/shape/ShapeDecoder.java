@@ -44,7 +44,7 @@ import com.flagstone.transform.coder.SWFFactory;
  * ShapeDecoder is used to decode the ShapeRecords that describe how a
  * Shape is drawn.
  */
-public final class ShapeDecoder implements SWFFactory<ShapeRecord> {
+public class ShapeDecoder implements SWFFactory<ShapeRecord> {
     /** {@inheritDoc} */
     public void getObject(final List<ShapeRecord> list, final SWFDecoder coder,
             final Context context) throws IOException {

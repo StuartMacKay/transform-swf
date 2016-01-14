@@ -45,7 +45,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * BlurFilter is used to apply a Box filter to the pixel of an object on the
  * display list.
  */
-public final class BlurFilter implements Filter {
+public class BlurFilter implements Filter {
     /** Maximum number of passes to blur an object. */
     private static final int MAX_BLUR_COUNT = 31;
 

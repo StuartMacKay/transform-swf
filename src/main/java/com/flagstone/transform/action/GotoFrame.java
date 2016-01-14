@@ -54,7 +54,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see GotoFrame2
  */
-public final class GotoFrame implements Action {
+public class GotoFrame implements Action {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "GotoFrame: { frameNumber=%d}";

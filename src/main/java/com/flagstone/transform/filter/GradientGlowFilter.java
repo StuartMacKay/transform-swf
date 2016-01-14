@@ -47,7 +47,7 @@ import com.flagstone.transform.fillstyle.Gradient;
  * GlowFilter is used to create a glow effect using a gradient colour around an
  * object on the display list.
  */
-public final class GradientGlowFilter implements Filter {
+public class GradientGlowFilter implements Filter {
 
     /**
      * Builder for creating GradientGlowFilter objects.

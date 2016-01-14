@@ -44,7 +44,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * with Adobe's Extensible Metadata Platform, see
  * http://www.adobe.com/products/xmp.
  */
-public final class MovieMetaData implements MovieTag {
+public class MovieMetaData implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "MetaData: { metadata=%s}";

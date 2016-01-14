@@ -46,7 +46,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * For Flash Version 8 and above it must be the first object after the
  * MovieHeader.
  */
-public final class MovieAttributes implements MovieTag {
+public class MovieAttributes implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "MovieAttributes: {"

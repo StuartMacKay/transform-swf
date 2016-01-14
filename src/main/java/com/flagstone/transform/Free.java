@@ -43,7 +43,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * Free deletes the object with the specified identifier, freeing up resources
  * in the Flash Player.
  */
-public final class Free implements MovieTag {
+public class Free implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "Free: { identifier=%d}";

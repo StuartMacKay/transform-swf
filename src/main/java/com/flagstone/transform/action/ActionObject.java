@@ -45,7 +45,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * be decoded and encoded from movies until direct support is provided in the
  * framework.
  */
-public final class ActionObject implements Action {
+public class ActionObject implements Action {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "ActionObject: {"

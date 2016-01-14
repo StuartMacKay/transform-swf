@@ -55,7 +55,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * </P>
  *
  */
-public final class PathsArePostscript implements MovieTag {
+public class PathsArePostscript implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "PathsArePostscript";

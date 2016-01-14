@@ -67,7 +67,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * SoundStreamHead2 or SoundStreamBlock. Other objects are not allowed.
  * </p>
  */
-public final class DefineMovieClip implements DefineTag {
+public class DefineMovieClip implements DefineTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "DefineMovieClip: { identifier=%d;"

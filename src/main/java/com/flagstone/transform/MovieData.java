@@ -47,7 +47,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * tags that will not change when generating Flash files from a template.
  * </p>
  */
-public final class MovieData implements MovieTag {
+public class MovieData implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "MovieData: { data=byte<%d> ...}";

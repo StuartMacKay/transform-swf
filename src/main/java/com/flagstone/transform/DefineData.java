@@ -52,7 +52,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see SymbolClass
  */
-public final class DefineData implements DefineTag {
+public class DefineData implements DefineTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "DefineData: { identifier=%d;"

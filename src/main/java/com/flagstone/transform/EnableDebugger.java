@@ -48,7 +48,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * attribute.
  * </p>
  */
-public final class EnableDebugger implements MovieTag {
+public class EnableDebugger implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "EnableDebugger: { password=%s}";

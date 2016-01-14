@@ -65,7 +65,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * @see Remove
  * @see Remove2
  */
-public final class Place implements MovieTag {
+public class Place implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "Place: { layer=%d; identifier=%d;"

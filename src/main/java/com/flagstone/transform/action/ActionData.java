@@ -49,7 +49,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * movie as a template.
  * </p>
  */
-public final class ActionData implements Action {
+public class ActionData implements Action {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "ActionData: { data=byte<%d> ...}";

@@ -59,7 +59,7 @@ import com.flagstone.transform.shape.ShapeData;
  * @see FontInfo
  * @see FontInfo2
  */
-public final class DefineFont implements DefineTag {
+public class DefineFont implements DefineTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "DefineFont: { identifier=%d;"

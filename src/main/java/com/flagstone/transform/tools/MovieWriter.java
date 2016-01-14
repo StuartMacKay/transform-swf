@@ -44,7 +44,7 @@ import com.flagstone.transform.MovieTag;
  * method of an object or even an entire Movie.
  */
 @SuppressWarnings("PMD.CyclomaticComplexity")
-public final class MovieWriter {
+public class MovieWriter {
     /**
      * Pretty print an entire Movie and write it to a file.
      * @param movie the Movie to get the string representation of.

@@ -44,7 +44,7 @@ import com.flagstone.transform.datatype.Color;
  * shape. Shapes can be filled with transparent colours but only if the fill
  * style is used in a DefineShape3 object.
  */
-public final class SolidFill implements FillStyle {
+public class SolidFill implements FillStyle {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "SolidFill: { color=%s}";

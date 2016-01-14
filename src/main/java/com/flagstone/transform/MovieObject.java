@@ -49,7 +49,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * and encoded.
  * </p>
  */
-public final class MovieObject implements MovieTag {
+public class MovieObject implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "MovieObject: { type=%d;"

@@ -51,7 +51,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * should a script fail.
  * </p>
  */
-public final class LimitScript implements MovieTag {
+public class LimitScript implements MovieTag {
 
     /** Maximum stack depth for recursive functions. */
     private static final int MAX_DEPTH = 65535;

@@ -69,7 +69,7 @@ import com.flagstone.transform.exception.IllegalArgumentValueException;
  * @see SoundInfo
  * @see StartSound
  */
-public final class DefineSound implements DefineTag {
+public class DefineSound implements DefineTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "DefineSound: { identifier=%d;"

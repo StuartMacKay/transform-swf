@@ -45,7 +45,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * ScenesAndLabels is used to list the scenes (main timeline only) and labelled
  * frames for movies and movie clips.
  */
-public final class ScenesAndLabels implements MovieTag {
+public class ScenesAndLabels implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "ScenesAndLabels: { scenes=%s;"

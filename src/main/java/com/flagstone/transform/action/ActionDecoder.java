@@ -42,7 +42,7 @@ import com.flagstone.transform.coder.SWFFactory;
  * ActionDecoder decodes the actions in the Flash movie.
  */
 @SuppressWarnings("PMD.CyclomaticComplexity")
-public final class ActionDecoder implements SWFFactory<Action> {
+public class ActionDecoder implements SWFFactory<Action> {
 
     /** {@inheritDoc} */
     public void getObject(final List<Action> list, final SWFDecoder coder,

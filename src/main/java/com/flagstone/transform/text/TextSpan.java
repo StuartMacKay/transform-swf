@@ -98,7 +98,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * @see com.flagstone.transform.util.font.Font
  */
 @SuppressWarnings("PMD.CyclomaticComplexity")
-public final class TextSpan implements SWFEncodeable, Copyable<TextSpan> {
+public class TextSpan implements SWFEncodeable, Copyable<TextSpan> {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "TextSpan: { identifier=%d; color=%s;"

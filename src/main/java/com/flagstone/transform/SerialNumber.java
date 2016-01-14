@@ -41,7 +41,7 @@ import com.flagstone.transform.coder.SWFEncoder;
 /**
  * SerialNumber is used to add a user-defined serial number into a Flash file.
  */
-public final class SerialNumber implements MovieTag {
+public class SerialNumber implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "SerialNumber: { number=%s}";

@@ -47,7 +47,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
 /**
  * FontAlignment provides the alignment information for the glyphs in a font.
  */
-public final class FontAlignment implements MovieTag {
+public class FontAlignment implements MovieTag {
 
     /**
      * StrokeWidth is used to provide hints about the thickness of the line

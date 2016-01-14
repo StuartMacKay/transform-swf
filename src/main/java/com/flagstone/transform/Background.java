@@ -58,7 +58,7 @@ import com.flagstone.transform.datatype.Color;
  *
  * @see Color
  */
-public final class Background implements MovieTag {
+public class Background implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "Background: { color=%s}";

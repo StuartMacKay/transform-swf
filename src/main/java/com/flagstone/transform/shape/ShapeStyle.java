@@ -84,7 +84,7 @@ import com.flagstone.transform.linestyle.LineStyle1;
  * </p>
  */
 @SuppressWarnings("PMD.CyclomaticComplexity")
-public final class ShapeStyle implements ShapeRecord {
+public class ShapeStyle implements ShapeRecord {
 
     /**
      * Reserved length for style counts indicated that the number of line

@@ -74,7 +74,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see GotoFrame
  */
-public final class GotoFrame2 implements Action {
+public class GotoFrame2 implements Action {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "Gotoframe2: { playFrame=%s;"

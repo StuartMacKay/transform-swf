@@ -108,7 +108,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  *
  */
 @SuppressWarnings("PMD.CyclomaticComplexity")
-public final class Push implements Action {
+public class Push implements Action {
 
     /** Number of bits in an int. */
     private static final int BITS_PER_INT = 32;

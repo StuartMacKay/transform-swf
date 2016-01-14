@@ -62,7 +62,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * will affect the final result.
  * </p>
  */
-public final class CoordTransform implements SWFEncodeable {
+public class CoordTransform implements SWFEncodeable {
     /** Offset to add to number of bits when calculating number of bytes. */
     private static final int ROUND_TO_BYTES = 7;
     /** Right shift to convert number of bits to number of bytes. */

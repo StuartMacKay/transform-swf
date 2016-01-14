@@ -45,7 +45,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * The ScreenVideoPacket class is used to encode or decode a frame of video data
  * using Macromedia's ScreenVideo format.
  */
-public final class ScreenPacket implements Copyable<ScreenPacket> {
+public class ScreenPacket implements Copyable<ScreenPacket> {
 
     /** Multiplier for the encoded value representing the block width. */
     private static final int PIXELS_PER_BLOCK = 16;

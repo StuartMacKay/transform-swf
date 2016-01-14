@@ -41,7 +41,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * @see RegisterCopy
  * @see Push
  */
-public final class RegisterIndex {
+public class RegisterIndex {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "Register: { number=%d}";

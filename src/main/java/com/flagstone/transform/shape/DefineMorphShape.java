@@ -87,7 +87,7 @@ import com.flagstone.transform.linestyle.MorphLineStyle;
  * </p>
  */
 @SuppressWarnings("PMD.CyclomaticComplexity")
-public final class DefineMorphShape implements ShapeTag {
+public class DefineMorphShape implements ShapeTag {
 
     /**
      * Reserved length for style counts indicated that the number of line

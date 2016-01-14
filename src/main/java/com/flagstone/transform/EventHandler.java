@@ -58,7 +58,7 @@ import com.flagstone.transform.coder.SWFFactory;
  * @see Event
  */
 @SuppressWarnings("PMD.CyclomaticComplexity")
-public final class EventHandler implements Action {
+public class EventHandler implements Action {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "EventHandler: { events=%s;"

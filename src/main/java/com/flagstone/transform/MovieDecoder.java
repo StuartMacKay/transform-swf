@@ -89,7 +89,7 @@ import com.flagstone.transform.video.VideoFrame;
      "PMD.CyclomaticComplexity",
      "PMD.ExcessiveMethodLength",
      "PMD.NcssMethodCount" })
-public final class MovieDecoder implements SWFFactory<MovieTag> {
+public class MovieDecoder implements SWFFactory<MovieTag> {
     /** {@inheritDoc} */
     @Override
 	public void getObject(final List<MovieTag> list, final SWFDecoder coder,

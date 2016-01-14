@@ -66,7 +66,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see TextSpan
  */
-public final class DefineText implements StaticTextTag {
+public class DefineText implements StaticTextTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "DefineText: { identifier=%d;"

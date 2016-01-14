@@ -38,7 +38,7 @@ package com.flagstone.transform.action;
  * defined for Actionscript 3.0 are not included.
  * </p>
  */
-public final class ActionTypes {
+public class ActionTypes {
     /** The type for creating the end of a sequence of actions. */
     public static final int END = 0;
     /** The type used to identify NextFrame action when encoded. */

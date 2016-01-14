@@ -37,7 +37,7 @@ import com.flagstone.transform.coder.Coder;
 /**
  * JPEGInfo is used to extract the width and height from a JPEG encoded image.
  */
-public final class JPEGInfo {
+public class JPEGInfo {
 
     /** Bit mask for the least significant byte. */
     private static final int BYTE_MASK = 255;

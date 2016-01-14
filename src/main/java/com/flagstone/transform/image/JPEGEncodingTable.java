@@ -61,7 +61,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  *
  * @see DefineJPEGImage
  */
-public final class JPEGEncodingTable implements MovieTag {
+public class JPEGEncodingTable implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "JPEGEncodingTable: {"

@@ -55,7 +55,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see DefineVideo
  */
-public final class VideoFrame implements MovieTag {
+public class VideoFrame implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "VideoFrame: { identifier=%d;"

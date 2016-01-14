@@ -66,7 +66,7 @@ import com.flagstone.transform.linestyle.LineStyle2;
  * without an outline or left unfilled.
  * </p>
  */
-public final class DefineShape2 implements ShapeTag {
+public class DefineShape2 implements ShapeTag {
 
     /**
      * Reserved length for style counts indicated that the number of line

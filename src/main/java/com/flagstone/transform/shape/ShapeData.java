@@ -42,7 +42,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * ShapeData is a convenience class for holding a set of encoded ShapeRecords
  * so that a Shape can be lazily decoded.
  */
-public final class ShapeData implements ShapeRecord {
+public class ShapeData implements ShapeRecord {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "ShapeData: byte<%d> ...";

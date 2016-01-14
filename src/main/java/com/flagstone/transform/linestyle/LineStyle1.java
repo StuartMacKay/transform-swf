@@ -69,7 +69,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see LineStyle2
  */
-public final class LineStyle1 implements LineStyle {
+public class LineStyle1 implements LineStyle {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "LineStyle : { width=%d; color=%s}";

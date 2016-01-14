@@ -45,7 +45,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * SymbolClass is used to export one or more Actionscript 3 classes so they
  * can be used in another Flash file.
  */
-public final class SymbolClass implements MovieTag {
+public class SymbolClass implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "SymbolClass: { objects=%s}";

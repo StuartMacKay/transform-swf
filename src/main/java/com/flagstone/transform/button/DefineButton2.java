@@ -78,7 +78,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * @see ButtonShape
  * @see EventHandler
  */
-public final class DefineButton2 implements DefineTag {
+public class DefineButton2 implements DefineTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "DefineButton2: { type=%s;"

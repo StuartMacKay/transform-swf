@@ -34,7 +34,7 @@ package com.flagstone.transform.action;
  * Null is a lightweight object that is used solely to allow null values to be
  * pushed onto the Flash Player stack.
  */
-public final class Null {
+public class Null {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "Null";

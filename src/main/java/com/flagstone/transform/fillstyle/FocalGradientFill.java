@@ -51,7 +51,7 @@ import com.flagstone.transform.datatype.CoordTransform;
  * and positive values up to 1.0 sets the focal point closer the right border.
  * A value of zero means the focal point is in the centre.
  */
-public final class FocalGradientFill implements FillStyle {
+public class FocalGradientFill implements FillStyle {
     /** Bit mask for extracting the spread field in gradient fills. */
     private static final int SPREAD_MASK = 0x00C0;
     /** Bit mask for extracting the interpolation field in gradient fills. */

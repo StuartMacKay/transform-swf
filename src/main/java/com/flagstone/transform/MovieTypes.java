@@ -36,7 +36,7 @@ package com.flagstone.transform;
  * according to the Flash file format specification.
  */
 @SuppressWarnings("PMD.LongVariable")
-public final class MovieTypes {
+public class MovieTypes {
     /** Marker for the end of a Movie. */
     public static final int END = 0;
     /** Identifies ShowFrame objects when they are encoded. */

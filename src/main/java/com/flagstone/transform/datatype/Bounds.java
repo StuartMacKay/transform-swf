@@ -68,7 +68,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * it then only the pixels inside of the bounding box will be repainted.
  * </p>
  */
-public final class Bounds implements SWFEncodeable {
+public class Bounds implements SWFEncodeable {
     /** Offset to add to number of bits when calculating number of bytes. */
     private static final int ROUND_TO_BYTES = 7;
     /** Right shift to convert number of bits to number of bytes. */

@@ -35,7 +35,7 @@ package com.flagstone.transform.fillstyle;
  * FillTypes defines the constants that identify a fill style when it is
  * encoded according to the Flash file format specification.
  */
-public final class FillStyleTypes {
+public class FillStyleTypes {
     /** The type identifying a SolidFill object when it is encoded. */
     public static final int SOLID_COLOR = 0;
     /** The type identifying a linear GradientFill object when it is encoded. */

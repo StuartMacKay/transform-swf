@@ -88,7 +88,7 @@ import com.flagstone.transform.linestyle.MorphLineStyle2;
  * Straight edges can become curves and vice versa.
  * </p>
  */
-public final class DefineMorphShape2 implements ShapeTag {
+public class DefineMorphShape2 implements ShapeTag {
 
     /**
      * Reserved length for style counts indicated that the number of line
