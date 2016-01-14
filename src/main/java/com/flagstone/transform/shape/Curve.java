@@ -60,7 +60,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see com.flagstone.transform.util.shape.Canvas
  */
-public final class Curve implements ShapeRecord {
+public class Curve implements ShapeRecord {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "Curve: (%d, %d) (%d, %d)";

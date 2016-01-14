@@ -85,7 +85,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * enclosing shape.
  * </p>
  */
-public final class BitmapFill implements FillStyle {
+public class BitmapFill implements FillStyle {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "BitmapFill: { identifier=%d;"

@@ -77,7 +77,7 @@ import com.flagstone.transform.filter.Filter;
  * @see DefineButton
  * @see DefineButton2
  */
-public final class ButtonShape implements SWFEncodeable, Copyable<ButtonShape> {
+public class ButtonShape implements SWFEncodeable, Copyable<ButtonShape> {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "ButtonShape: { state=%d;"

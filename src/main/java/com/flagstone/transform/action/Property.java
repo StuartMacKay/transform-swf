@@ -36,7 +36,7 @@ package com.flagstone.transform.action;
  *
  * @see Push
  */
-public final class Property {
+public class Property {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "Property: { value=%d}";

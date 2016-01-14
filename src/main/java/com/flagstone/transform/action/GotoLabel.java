@@ -43,7 +43,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * movie with the specified label - previously assigned using a FrameLabel
  * object.
  */
-public final class GotoLabel implements Action {
+public class GotoLabel implements Action {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "GotoLabel: { label=%s}";

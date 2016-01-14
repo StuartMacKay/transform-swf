@@ -43,7 +43,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * AlignmentZone defines a bounding box that is used by the advanced text
  * rendering engine in the Flash Player to snap glyphs to the nearest pixel.
  */
-public final class AlignmentZone implements SWFEncodeable {
+public class AlignmentZone implements SWFEncodeable {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "AlignmentZone: {"

@@ -215,7 +215,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
     "PMD.TooManyMethods",
     "PMD.CyclomaticComplexity",
     "PMD.ExcessivePublicCount" })
-public final class DefineTextField implements DefineTag {
+public class DefineTextField implements DefineTag {
 
     /** The maximum size of a dimension when defining the field layout. */
     private static final int MAX_SPACE = 65535;

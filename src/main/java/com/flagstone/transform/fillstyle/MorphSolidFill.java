@@ -43,7 +43,7 @@ import com.flagstone.transform.datatype.Color;
  * MorphSolidFill defines the solid colours that are used to fill a shape at the
  * start and end of the morphing process.
  */
-public final class MorphSolidFill implements FillStyle {
+public class MorphSolidFill implements FillStyle {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "MorphSolidFill: { start=%s;"

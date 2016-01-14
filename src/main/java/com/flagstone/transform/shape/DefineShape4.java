@@ -54,7 +54,7 @@ import com.flagstone.transform.linestyle.LineStyle2;
  * edges of the shape (the outline without taking the stroke thickness into
  * account) as well as hints for improving the way shapes are drawn.
  */
-public final class DefineShape4 implements ShapeTag {
+public class DefineShape4 implements ShapeTag {
 
     /**
      * Reserved length for style counts indicated that the number of line

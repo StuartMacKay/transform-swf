@@ -79,7 +79,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * </p>
  */
 @SuppressWarnings("PMD.CyclomaticComplexity")
-public final class FontInfo implements MovieTag {
+public class FontInfo implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "FontInfo: { identifier=%d;"

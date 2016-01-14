@@ -75,7 +75,7 @@ import com.flagstone.transform.text.Language;
  *
  * @see FontInfo
  */
-public final class FontInfo2 implements MovieTag {
+public class FontInfo2 implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "FontInfo2: { identifier=%d;"

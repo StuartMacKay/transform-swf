@@ -70,7 +70,7 @@ import com.flagstone.transform.coder.SWFFactory;
  * Actionscript 2.x code. For Actionscript 3.0 use the DoABC class.
  * </p>
  */
-public final class DoAction implements MovieTag {
+public class DoAction implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "DoAction: { actions=%s}";

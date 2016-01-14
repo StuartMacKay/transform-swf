@@ -35,7 +35,7 @@ package com.flagstone.transform.sound;
  * SoundRate defines the constants that identify the pre-defined sound
  * sample rates supported by the Flash Player.
  */
-public final class SoundRate {
+public class SoundRate {
     /** A 5 kHz sample rate. */
     public static final int KHZ_5K = 5512;
     /** An 8 kHz sample rate. */

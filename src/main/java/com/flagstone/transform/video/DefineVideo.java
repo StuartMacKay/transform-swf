@@ -54,7 +54,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * class.
  * </p>
  */
-public final class DefineVideo implements DefineTag {
+public class DefineVideo implements DefineTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "DefineVideo: { identifier=%d;"

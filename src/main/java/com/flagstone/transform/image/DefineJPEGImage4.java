@@ -47,7 +47,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * the parameter that controls the deblocking filter that is used to decode the
  * image data.
  */
-public final class DefineJPEGImage4 implements ImageTag {
+public class DefineJPEGImage4 implements ImageTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "DefineJPEGImage4: { identifier=%d;"

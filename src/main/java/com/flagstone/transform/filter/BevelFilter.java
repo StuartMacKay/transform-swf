@@ -44,7 +44,7 @@ import com.flagstone.transform.datatype.Color;
  * BevelFilter is used to create a smooth bevel around an object on the display
  * list.
  */
-public final class BevelFilter implements Filter {
+public class BevelFilter implements Filter {
     /** Bit mask for encoding and decoding the filter mode. */
     private static final int MODE_MASK = 0x00D0;
 

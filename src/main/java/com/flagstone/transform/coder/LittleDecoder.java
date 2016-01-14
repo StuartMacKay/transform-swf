@@ -43,7 +43,7 @@ import java.util.Stack;
  * decoded first.
  */
 @SuppressWarnings("PMD.TooManyMethods")
-public final class LittleDecoder {
+public class LittleDecoder {
     /** The default size, in bytes, for the internal buffer. */
     public static final int BUFFER_SIZE = 4096;
 

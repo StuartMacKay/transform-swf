@@ -66,7 +66,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see If
  */
-public final class Jump implements Action {
+public class Jump implements Action {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "Jump: { offset=%d}";

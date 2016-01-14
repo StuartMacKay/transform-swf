@@ -80,7 +80,7 @@ import com.flagstone.transform.datatype.CoordTransform;
  *
  * @see Gradient
  */
-public final class GradientFill implements FillStyle {
+public class GradientFill implements FillStyle {
 
     /** Bit mask for extracting the spread field in gradient fills. */
     private static final int SPREAD_MASK = 0x00C0;

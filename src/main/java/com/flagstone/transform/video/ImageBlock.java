@@ -49,7 +49,7 @@ import com.flagstone.transform.coder.Copyable;
  *
  * @see DefineVideo
  */
-public final class ImageBlock implements Copyable<ImageBlock> {
+public class ImageBlock implements Copyable<ImageBlock> {
     /** Width of the block in pixels. */
     private final transient int width;
     /** Height of the block in pixels. */

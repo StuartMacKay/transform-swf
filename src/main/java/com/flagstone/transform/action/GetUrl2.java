@@ -107,7 +107,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * </p>
  *
  */
-public final class GetUrl2 implements Action {
+public class GetUrl2 implements Action {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "GetUrl2: { requestType=%s}";

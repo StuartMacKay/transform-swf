@@ -57,7 +57,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see TextSpan
  */
-public final class GlyphIndex implements SWFEncodeable {
+public class GlyphIndex implements SWFEncodeable {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "GlyphIndex: { glyphIndex=%d;"

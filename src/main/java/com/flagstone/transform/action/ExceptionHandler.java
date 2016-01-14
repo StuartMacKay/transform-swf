@@ -58,7 +58,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * corresponding arguments in constructors and methods may be set to empty.
  * </p>
  */
-public final class ExceptionHandler implements Action {
+public class ExceptionHandler implements Action {
 
     /**
      * The Builder class is used to generate a new ExceptionHandler object

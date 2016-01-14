@@ -46,7 +46,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
 /**
  * FontName is used to hold the name and copyright information for a font.
  */
-public final class FontName implements MovieTag {
+public class FontName implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "DefineFontName: { identifier=%d;"

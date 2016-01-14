@@ -80,7 +80,7 @@ import com.flagstone.transform.coder.SWFFactory;
  * does not conflict with an existing object.
  * </p>
  */
-public final class Movie implements Copyable<Movie> {
+public class Movie implements Copyable<Movie> {
 
     /** The version of Flash supported. */
     public static final int VERSION = 10;

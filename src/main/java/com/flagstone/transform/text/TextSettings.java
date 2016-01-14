@@ -71,7 +71,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * thickness and sharpness values.
  * </p>
  */
-public final class TextSettings implements MovieTag {
+public class TextSettings implements MovieTag {
     /**
      * Grid specifies how letters are aligned with respect to the pixel grid on
      * a screen.

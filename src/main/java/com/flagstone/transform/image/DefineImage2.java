@@ -73,7 +73,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see DefineImage
  */
-public final class DefineImage2 implements ImageTag {
+public class DefineImage2 implements ImageTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "DefineImage2: { identifier=%d;"

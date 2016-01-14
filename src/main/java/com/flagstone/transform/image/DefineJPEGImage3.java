@@ -53,7 +53,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see DefineJPEGImage2
  */
-public final class DefineJPEGImage3 implements ImageTag {
+public class DefineJPEGImage3 implements ImageTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "DefineJPEGImage3: { identifier=%d;"

@@ -45,7 +45,7 @@ import com.flagstone.transform.datatype.Color;
  * ConvolutionFilter is used to apply a two-dimensional discrete convolution on
  * the pixels of the object on the display list.
  */
-public final class ConvolutionFilter implements Filter {
+public class ConvolutionFilter implements Filter {
 
     /**
      * Builder for creating ConvolutionFilter objects.

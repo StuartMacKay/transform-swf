@@ -44,7 +44,7 @@ import com.flagstone.transform.datatype.Color;
  * DropShadowFilter is used to create a drop shadow on a object on the display
  * list.
  */
-public final class DropShadowFilter implements Filter {
+public class DropShadowFilter implements Filter {
 
     /**
      * Builder for creating DropShadowFilter objects.

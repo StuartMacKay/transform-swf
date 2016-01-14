@@ -34,7 +34,7 @@ package com.flagstone.transform.action;
  * Void is a lightweight object that is used solely to allow void values to be
  * pushed onto the Flash Player stack.
  */
-public final class Void {
+public class Void {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "Void";

@@ -56,7 +56,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * the frame specified in the URL.
  * </p>
  */
-public final class FrameLabel implements MovieTag {
+public class FrameLabel implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "FrameLabel: { label=%s; anchor=%s}";

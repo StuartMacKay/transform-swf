@@ -48,7 +48,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * Envelope is a container class for Level objects that describe how the volume
  * of a sound changes over time.
  */
-public final class Envelope implements SWFEncodeable, Copyable<Envelope> {
+public class Envelope implements SWFEncodeable, Copyable<Envelope> {
     /**
      * Level describes the sound levels for stereo sound.
      *

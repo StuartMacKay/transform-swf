@@ -76,7 +76,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see Jump
  */
-public final class If implements Action {
+public class If implements Action {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "If: { offset=%d}";

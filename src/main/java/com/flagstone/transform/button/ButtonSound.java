@@ -61,7 +61,7 @@ import com.flagstone.transform.sound.SoundInfo;
  * @see DefineButton
  * @see DefineButton2
  */
-public final class ButtonSound implements MovieTag {
+public class ButtonSound implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "ButtonSound: { identifier=%d;"

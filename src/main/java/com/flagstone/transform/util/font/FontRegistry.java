@@ -38,7 +38,7 @@ import java.util.Map;
  * FontRegistry is used to provide a directory for registering FontProviders
  * that are used to decode different font formats.
  */
-public final class FontRegistry {
+public class FontRegistry {
 
     /** The table of font providers used to decode each supported format. */
     private static Map<String, FontProvider> providers =

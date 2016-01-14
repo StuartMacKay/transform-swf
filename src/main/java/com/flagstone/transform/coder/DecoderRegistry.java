@@ -48,7 +48,7 @@ import com.flagstone.transform.shape.ShapeRecord;
  * The DecoderRegistry is used to maintain a table of objects that can be used
  * to decode the different types of object encountered in a Flash file.
  */
-public final class DecoderRegistry implements Copyable<DecoderRegistry> {
+public class DecoderRegistry implements Copyable<DecoderRegistry> {
 
     /** Registry containing a set of default decoders for different objects. */
     private static DecoderRegistry defaultRegistry;

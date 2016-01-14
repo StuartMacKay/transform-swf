@@ -60,7 +60,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * @see DefineButton
  * @see DefineButton2
  */
-public final class ButtonColorTransform implements MovieTag {
+public class ButtonColorTransform implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "ButtonColorTransform: {"

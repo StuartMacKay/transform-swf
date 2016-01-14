@@ -71,7 +71,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see DefineSound
  */
-public final class SoundInfo implements SWFEncodeable, Copyable<SoundInfo> {
+public class SoundInfo implements SWFEncodeable, Copyable<SoundInfo> {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "SoundInfo: { identifier=%d; mode=%s;"

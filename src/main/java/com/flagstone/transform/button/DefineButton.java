@@ -60,7 +60,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see ButtonShape
  */
-public final class DefineButton implements DefineTag {
+public class DefineButton implements DefineTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "DefineButton: { identifier=%d;"

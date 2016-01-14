@@ -52,7 +52,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * is morphed.
  * </p>
  */
-public final class MorphLineStyle implements LineStyle {
+public class MorphLineStyle implements LineStyle {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "MorphSolidLine: { startWidth=%d;"

@@ -49,7 +49,7 @@ import com.flagstone.transform.linestyle.LineStyle2;
  * drawn with the LineStyle2 object.
  */
 @SuppressWarnings("PMD.CyclomaticComplexity")
-public final class ShapeStyle2 implements ShapeRecord {
+public class ShapeStyle2 implements ShapeRecord {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "ShapeStyle2: { move=(%d, %d);"

@@ -4,7 +4,7 @@ package com.flagstone.transform.coder;
  * Coder contains constants and utility functions used by the various classes
  * for encoding and decoding.
  */
-public final class Coder {
+public class Coder {
     /** Mask for getting and setting bit 0 of a word. */
     public static final int BIT0 = 0x00000001;
     /** Mask for getting and setting bit 1 of a word. */

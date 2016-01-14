@@ -68,7 +68,7 @@ import com.flagstone.transform.text.Language;
  */
 @SuppressWarnings({"PMD.TooManyFields", "PMD.TooManyMethods",
     "PMD.CyclomaticComplexity" })
-public final class DefineFont2 implements DefineTag {
+public class DefineFont2 implements DefineTag {
     /** Last version of FLash which does not support Language field. */
     private static final int LANGUAGE_VERSION = 5;
     /** Format string used in toString() method. */

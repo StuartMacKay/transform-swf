@@ -62,7 +62,7 @@ import com.flagstone.transform.coder.SWFFactory;
  *
  * @see NewFunction2
  */
-public final class NewFunction implements Action {
+public class NewFunction implements Action {
 
     /**
      * The Builder class is used to generate a new NewFunction object

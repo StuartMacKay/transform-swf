@@ -51,7 +51,7 @@ import com.flagstone.transform.fillstyle.FillStyle;
  * is scaled if an object is resized.
  */
 @SuppressWarnings("PMD.CyclomaticComplexity")
-public final class LineStyle2 implements LineStyle {
+public class LineStyle2 implements LineStyle {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "LineStyle2: { width=%d; color=%s;"

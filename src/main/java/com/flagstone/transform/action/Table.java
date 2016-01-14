@@ -56,7 +56,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * @see TableIndex
  * @see Push
  */
-public final class Table implements Action {
+public class Table implements Action {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "Table: { values=%s}";

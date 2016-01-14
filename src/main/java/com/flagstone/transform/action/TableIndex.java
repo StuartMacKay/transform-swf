@@ -40,7 +40,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * @see Table
  * @see Push
  */
-public final class TableIndex {
+public class TableIndex {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "TableIndex: { index=%d}";

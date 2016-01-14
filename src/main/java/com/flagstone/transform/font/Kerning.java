@@ -60,7 +60,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see DefineFont2
  */
-public final class Kerning implements SWFEncodeable {
+public class Kerning implements SWFEncodeable {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "Kerning: { leftGlyph=%d;"

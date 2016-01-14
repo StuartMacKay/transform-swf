@@ -65,7 +65,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * @see RegisterIndex
  * @see Push
  */
-public final class RegisterCopy implements Action {
+public class RegisterCopy implements Action {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "RegisterCopy: { number=%d}";

@@ -51,7 +51,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * signals whether the alpha channel should be included.
  * </p>
  */
-public final class Color implements SWFEncodeable {
+public class Color implements SWFEncodeable {
 
     /**
      * The number of channels in an opaque Color object. Only used within the

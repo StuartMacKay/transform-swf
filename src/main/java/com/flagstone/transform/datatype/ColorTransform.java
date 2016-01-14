@@ -95,7 +95,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * </p>
  *
  */
-public final class ColorTransform implements SWFEncodeable {
+public class ColorTransform implements SWFEncodeable {
     /** Offset to add to number of bits when calculating number of bytes. */
     private static final int ROUND_TO_BYTES = 7;
     /** Right shift to convert number of bits to number of bytes. */

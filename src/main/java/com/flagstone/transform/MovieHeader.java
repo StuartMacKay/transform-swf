@@ -44,7 +44,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * MovieHeader contains the attributes that make up the header fields of a Flash
  * file. Previously these were attributes of the Movie class.
  */
-public final class MovieHeader implements MovieTag {
+public class MovieHeader implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "Header: { version=%d; compressed=%b;"

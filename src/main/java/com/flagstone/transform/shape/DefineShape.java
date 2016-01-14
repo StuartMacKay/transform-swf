@@ -67,7 +67,7 @@ import com.flagstone.transform.linestyle.LineStyle2;
  * the shape to be drawn without an outline or left unfilled.
  * </p>
  */
-public final class DefineShape implements ShapeTag {
+public class DefineShape implements ShapeTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "DefineShape: { identifier=%d;"

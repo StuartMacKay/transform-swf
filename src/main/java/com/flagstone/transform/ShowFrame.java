@@ -59,7 +59,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * objects displayed in a frame must be defined before they can be displayed.
  * </p>
  */
-public final class ShowFrame implements MovieTag {
+public class ShowFrame implements MovieTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "ShowFrame";

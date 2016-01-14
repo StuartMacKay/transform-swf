@@ -45,7 +45,7 @@ import com.flagstone.transform.coder.SWFEncoder;
 /**
  * GlyphAlignment holds the alignment zones for a font glyph.
  */
-public final class GlyphAlignment implements SWFEncodeable,
+public class GlyphAlignment implements SWFEncodeable,
             Copyable<GlyphAlignment> {
 
     /** Format string used in toString() method. */

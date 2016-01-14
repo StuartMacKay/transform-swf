@@ -61,7 +61,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * @see Push
  * @see If
  */
-public final class WaitForFrame2 implements Action {
+public class WaitForFrame2 implements Action {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "WaitForFrame2: { actionCount=%d}";

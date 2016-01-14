@@ -52,7 +52,7 @@ import com.flagstone.transform.linestyle.LineStyle2;
  * {@link DefineShape2} class by encoding the alpha channel in any Color objects
  * included in the line and fill styles.
  */
-public final class DefineShape3 implements ShapeTag {
+public class DefineShape3 implements ShapeTag {
 
     /**
      * Reserved length for style counts indicated that the number of line

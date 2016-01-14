@@ -34,7 +34,7 @@ package com.flagstone.transform.filter;
  * FilterTypes defines the values that are used to identify the different types
  * of filter when they are encoded in a Flash file.
  */
-public final class FilterTypes {
+public class FilterTypes {
     /** A DropShadowFilter. */
     public static final int DROP_SHADOW = 0;
     /** A BlueFilter. */

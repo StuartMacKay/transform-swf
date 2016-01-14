@@ -50,7 +50,7 @@ import com.flagstone.transform.util.shape.Canvas;
 /**
  * AWTDecoder decodes Java AWT Fonts so they can be used in a Flash file.
  */
-public final class AWTDecoder {
+public class AWTDecoder {
     /** Number of edge points from a PathIterator segment. */
     private static final int SEGMENT_COUNT = 6;
     /** x-coordinate of the end point of a move or line. */

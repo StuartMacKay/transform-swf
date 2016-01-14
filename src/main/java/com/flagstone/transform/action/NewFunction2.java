@@ -130,7 +130,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  *
  * @see NewFunction
  */
-public final class NewFunction2 implements Action {
+public class NewFunction2 implements Action {
 
     /** Number of last internal register in the Flash Player. */
     private static final int LAST_REGISTER = 255;

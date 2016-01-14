@@ -47,7 +47,7 @@ import com.flagstone.transform.fillstyle.Gradient;
  * GradientBevelFilter is used to create a smooth bevel with a gradient colour
  * around an object on the display list.
  */
-public final class GradientBevelFilter implements Filter {
+public class GradientBevelFilter implements Filter {
 
     /**
      * Builder for creating GradientBevelFilter objects.

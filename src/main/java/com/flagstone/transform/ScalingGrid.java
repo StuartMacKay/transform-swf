@@ -47,7 +47,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * the (two) squares to the left and right are scaled vertically and the (four)
  * corner squares are not scaled at all.
  */
-public final class ScalingGrid implements DefineTag {
+public class ScalingGrid implements DefineTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "ScalingGrid: { identifier=%d;"

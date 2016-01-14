@@ -46,7 +46,7 @@ import java.util.zip.DataFormatException;
  * formats. The ImageFactory provides a standard interface for using the
  * decoders.
  */
-public final class FontFactory {
+public class FontFactory {
     /** The object used to decode the font. */
     private transient FontDecoder decoder;
 

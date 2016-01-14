@@ -43,7 +43,7 @@ import com.flagstone.transform.coder.SWFEncoder;
  * name</i> or <i>frame number</i> is retrieved from the top of the stack when
  * it is executed.
  */
-public final class Call implements Action {
+public class Call implements Action {
 
     /** Shared instance. */
     private static final Call INSTANCE = new Call();

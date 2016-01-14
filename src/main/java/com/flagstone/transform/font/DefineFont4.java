@@ -47,7 +47,7 @@ import com.flagstone.transform.exception.IllegalArgumentRangeException;
  * DefineFont4 is used to pass OpenType font data directly to the text rendering
  * engine added in Flash Player 10.
  */
-public final class DefineFont4 implements DefineTag {
+public class DefineFont4 implements DefineTag {
 
     /** Format string used in toString() method. */
     private static final String FORMAT = "DefineFont4: { identifier=%d;"

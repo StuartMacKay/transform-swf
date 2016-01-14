@@ -45,7 +45,7 @@ import com.flagstone.transform.CharacterEncoding;
  * data from a file or external source in blocks.
  */
 @SuppressWarnings("PMD.TooManyMethods")
-public final class SWFDecoder {
+public class SWFDecoder {
     /** The default size, in bytes, for the internal buffer. */
     public static final int BUFFER_SIZE = 4096;
 

@@ -54,7 +54,7 @@ import com.flagstone.transform.coder.SWFFactory;
  * other than acting as a container class.
  * </p>
  */
-public final class Shape implements SWFEncodeable, Copyable<Shape> {
+public class Shape implements SWFEncodeable, Copyable<Shape> {
 
     /**
      * The minimum coordinate in along the x or y axes.
